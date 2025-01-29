@@ -9,8 +9,7 @@ export const useCounterCarrito = (valorInicial) => {
     const incrementar = (modificarCarrito, id) => {
 
         setCounter(counter + 1); 
-        modificarCarrito(id, counter)
-        console.log(counter)
+        modificarCarrito(id, nuevoValor)
     }
 
     const decrementar = (modificarCarrito, id) => {
