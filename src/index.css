@@ -1,0 +1,16 @@
+.contenedor-carrito{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor-carrito p{
+    font-size: 24px;
+}
+
+.producto{
+    background-color: #bbbbbb;
+    padding: 20px;
+    border-radius: 10px;
+}
